@@ -1,0 +1,94 @@
+html {
+  background-image: linear-gradient(
+    rgba(233, 5, 115, 0.07),
+    rgba(0, 132, 255, 0.17)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  width: 100vw;
+  justify-content: center;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.title {
+  color: black;
+  font-weight: 500;
+  font-size: 32px;
+  margin: 0 0 10px 0;
+}
+
+.made-by {
+  color: black;
+  font-size: 14px;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+
+.dropdown-container {
+  width: min(70%, 550px);
+  margin: 20px 0 30px 0;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+
+.table-container {
+  margin: 30px 0 0 10px;
+  width: 90%;
+}
+
+.rdt_Pagination {
+  margin-bottom: 15px;
+}
